@@ -1,0 +1,68 @@
+@media screen and (max-width: 500px) {
+    /* *{
+        background-color: red;
+    } */
+    .avatar{
+        height: 100px !important;
+        width: 75px !important;
+    }
+}
+
+
+@media screen and (max-width: 768px ) {
+    .menuList{
+        width: 25vw !important;
+    }
+}
+
+@media screen and (max-width: 558px ) {
+    .menuList{
+        /* display: none !important; */
+        width: 40vw !important;
+    }
+}
+
+@media screen and (max-width: 744px) {
+    .adminHome{
+        flex-direction: column !important;
+    }
+}
+
+
+.ham{
+    position: absolute;
+    left: 4px;
+    
+}
+
+.cross{
+    position: absolute; 
+    right: 0px;
+    top: 4px;
+
+}
+
+.hidemenu{
+    display: none !important;
+}
+
+.showMenu{
+    display: block !important;
+}
+@media screen and (max-width : 482px) {
+    .resHide{
+        display: none !important;
+    }
+}
+
+@media screen and (min-width : 483px) {
+    .ham{
+        display: none !important;
+    }
+    .menuList{
+        display: block !important;
+    }
+    .cross{
+        display: none !important;
+    }
+}

@@ -1,0 +1,28 @@
+@media screen and (max-width : 600px) {
+    
+    #img1{
+        height: 200px !important;
+    }
+    #img2{
+        height: 210px !important;
+    }
+    .img-container{
+        flex-direction: column;
+    }
+    #imgdiv{
+        margin: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width : 301px) {
+    #cap{
+        height: 100px !important;
+    }
+    #img1{
+        height: 147px !important;
+    }
+    #img2{
+        height: 153px !important;
+    }
+}
