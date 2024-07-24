@@ -66,7 +66,7 @@ const Signup = () => {
   
   <div className="mb-3">
     <label htmlFor="password" className="form-label">Password</label>
-    <input type="password" className="form-control" id="password" name='password' value={credentials.password} onChange={onchange} required/>
+    <input type="password" className="form-control" id="password" name='password' placeholder='Length of password must be 6' value={credentials.password} onChange={onchange} required/>
   </div>
   <div className="mb-3">
     <label htmlFor="cpassword" className="form-label">Confirm Password</label>
